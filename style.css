@@ -11,7 +11,7 @@ body{
 
 div{
     border: 1px solid black;
-    padding: 50px;
+    padding: 20px;
 }
 
 .right-wrapper{
@@ -29,7 +29,7 @@ div{
 .content-wrapper{
     display: grid;
     grid-template-columns: 2.3fr 1fr;
-    padding: 20px 30px 35px 30px;
+    width: 100%;
 }
 
 .content-wrapper-left{
@@ -68,8 +68,22 @@ div{
 .content-right{
 }
 
-.header-wrapper{
+.header{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.header-top-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+}
+
+.header-bottom-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr;
+    grid-template-rows: 1fr;
+    padding: 0;
 }
