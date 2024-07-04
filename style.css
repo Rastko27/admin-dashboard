@@ -5,6 +5,7 @@ body{
 .page-wrapper{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
     padding: 0;
 }
 
@@ -28,9 +29,47 @@ div{
 .content-wrapper{
     display: grid;
     grid-template-columns: 2.3fr 1fr;
+    padding: 20px 30px 35px 30px;
 }
 
 .content-wrapper-left{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content-heading-wrapper{
+    padding: 10px 10px 0px 0px;
+}
+
+.content-wrapper-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.inner-content-wrapper{
+    padding: 0;
+    width: 100%;
+}
+
+.content-right-stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+}
+
+.content-right{
+}
+
+.header-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
