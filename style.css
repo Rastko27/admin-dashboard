@@ -89,16 +89,11 @@ h1,h2,h3{
     min-height: 100vh;
     border: none;
 }
-/*
-div{
-    border: 1px solid black;
-    padding: 20px;
-}
-*/
+
 .right-wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.85fr 4fr;
+    grid-template-rows: auto auto;
     padding: 0;
     border: none;
 }
@@ -320,7 +315,7 @@ a{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1.2fr;
-    padding: 0;
+    padding: 10px 0px 15px 0px;
 }
 
 .header-top-wrapper{
@@ -335,7 +330,7 @@ a{
     display: grid;
     grid-template-columns: 1.5fr 1.2fr;
     grid-template-rows: 1fr;
-    padding: 0;
+    padding-top: 5px;
     border: none;
 }
 
